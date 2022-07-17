@@ -1,0 +1,72 @@
+01/22/22, 12:24:57 - DEBUG diff parser start
+01/22/22, 12:24:57 - DEBUG line_lengths old: 1; new: 1
+01/22/22, 12:24:57 - DEBUG -> code[replace] old[1:1] new[1:1]
+01/22/22, 12:24:57 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 12:24:57 - DEBUG diff parser end
+01/22/22, 12:25:12 - DEBUG diff parser start
+01/22/22, 12:25:12 - DEBUG line_lengths old: 1; new: 1
+01/22/22, 12:25:12 - DEBUG -> code[replace] old[1:1] new[1:1]
+01/22/22, 12:25:12 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 12:25:12 - DEBUG diff parser end
+01/22/22, 12:25:16 - DEBUG diff parser start
+01/22/22, 12:25:16 - DEBUG line_lengths old: 1; new: 1
+01/22/22, 12:25:16 - DEBUG -> code[replace] old[1:1] new[1:1]
+01/22/22, 12:25:16 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 12:25:16 - DEBUG diff parser end
+01/22/22, 13:52:38 - DEBUG diff parser start
+01/22/22, 13:52:38 - DEBUG line_lengths old: 1; new: 16
+01/22/22, 13:52:38 - DEBUG -> code[replace] old[1:1] new[1:16]
+01/22/22, 13:52:38 - DEBUG parse_part from 1 to 16 (to 15 in part parser)
+01/22/22, 13:52:38 - DEBUG diff parser end
+01/22/22, 13:52:38 - DEBUG pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+01/22/22, 13:52:38 - DEBUG pickle loaded: C:\ProgramData\Anaconda3\lib\typing.py
+01/22/22, 13:52:38 - DEBUG pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+01/22/22, 13:52:38 - DEBUG pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+01/22/22, 13:52:39 - DEBUG diff parser start
+01/22/22, 13:52:39 - DEBUG line_lengths old: 16; new: 16
+01/22/22, 13:52:39 - DEBUG -> code[equal] old[1:15] new[1:15]
+01/22/22, 13:52:39 - DEBUG copy old[1:15] new[1:12]
+01/22/22, 13:52:39 - DEBUG parse_part from 13 to 16 (to 15 in part parser)
+01/22/22, 13:52:39 - DEBUG -> code[replace] old[16:16] new[16:16]
+01/22/22, 13:52:39 - DEBUG diff parser end
+01/22/22, 13:57:42 - DEBUG diff parser start
+01/22/22, 13:57:42 - DEBUG line_lengths old: 16; new: 1
+01/22/22, 13:57:42 - DEBUG -> code[replace] old[1:16] new[1:1]
+01/22/22, 13:57:42 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 13:57:42 - DEBUG diff parser end
+01/22/22, 13:57:43 - DEBUG diff parser start
+01/22/22, 13:57:43 - DEBUG line_lengths old: 1; new: 1
+01/22/22, 13:57:43 - DEBUG -> code[replace] old[1:1] new[1:1]
+01/22/22, 13:57:43 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 13:57:43 - DEBUG diff parser end
+01/22/22, 14:14:38 - DEBUG diff parser start
+01/22/22, 14:14:38 - DEBUG line_lengths old: 1; new: 1
+01/22/22, 14:14:38 - DEBUG -> code[replace] old[1:1] new[1:1]
+01/22/22, 14:14:38 - DEBUG parse_part from 1 to 1 (to 0 in part parser)
+01/22/22, 14:14:38 - DEBUG diff parser end
+01/22/22, 14:19:53 - DEBUG diff parser start
+01/22/22, 14:19:53 - DEBUG line_lengths old: 1; new: 34
+01/22/22, 14:19:53 - DEBUG -> code[replace] old[1:1] new[1:34]
+01/22/22, 14:19:53 - DEBUG parse_part from 1 to 34 (to 33 in part parser)
+01/22/22, 14:19:53 - DEBUG diff parser end
+01/22/22, 14:19:54 - DEBUG diff parser start
+01/22/22, 14:19:54 - DEBUG line_lengths old: 34; new: 34
+01/22/22, 14:19:54 - DEBUG -> code[equal] old[1:33] new[1:33]
+01/22/22, 14:19:54 - DEBUG copy old[1:33] new[1:33]
+01/22/22, 14:19:54 - DEBUG -> code[replace] old[34:34] new[34:34]
+01/22/22, 14:19:54 - DEBUG parse_part from 34 to 34 (to 33 in part parser)
+01/22/22, 14:19:54 - DEBUG diff parser end
+01/22/22, 14:19:54 - DEBUG diff parser start
+01/22/22, 14:19:54 - DEBUG line_lengths old: 34; new: 34
+01/22/22, 14:19:54 - DEBUG -> code[equal] old[1:33] new[1:33]
+01/22/22, 14:19:54 - DEBUG copy old[1:33] new[1:33]
+01/22/22, 14:19:54 - DEBUG -> code[replace] old[34:34] new[34:34]
+01/22/22, 14:19:54 - DEBUG parse_part from 34 to 34 (to 33 in part parser)
+01/22/22, 14:19:54 - DEBUG diff parser end
+01/22/22, 14:20:29 - DEBUG diff parser start
+01/22/22, 14:20:29 - DEBUG line_lengths old: 34; new: 34
+01/22/22, 14:20:29 - DEBUG -> code[equal] old[1:33] new[1:33]
+01/22/22, 14:20:29 - DEBUG copy old[1:33] new[1:33]
+01/22/22, 14:20:29 - DEBUG -> code[replace] old[34:34] new[34:34]
+01/22/22, 14:20:29 - DEBUG parse_part from 34 to 34 (to 33 in part parser)
+01/22/22, 14:20:29 - DEBUG diff parser end

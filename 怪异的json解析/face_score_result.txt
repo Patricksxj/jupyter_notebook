@@ -1,0 +1,50 @@
+图片一(370306198901253027)与图片二(370306198901253027)比对结果:
+{
+	"responseCode": "000000",
+	"responseData":{
+		"similarity":0.999999,
+		"ref_thres":"0.420"
+},
+	"responseMessage":"success"
+}
+
+图片一(370306198901253027)与图片二(370306198901253028)比对结果:
+{
+	"responseCode": "000000",
+	"responseData":{
+		"similarity":0.899999,
+		"ref_thres":"0.420"
+},
+	"responseMessage":"success"
+}
+
+图片一(370306198901253027)与图片二(370306198901253029)比对结果:
+{
+	"responseCode": "000000",
+	"responseData":{
+		"similarity":0.799999,
+		"ref_thres":"0.420"
+},
+	"responseMessage":"success"
+}
+
+图片一(370306198901253027)与图片二(370306198901253020)比对结果:
+{
+	"responseCode": "000000",
+	"responseData":{
+		"similarity":0.699999,
+		"ref_thres":"0.420"
+},
+	"responseMessage":"success"
+}
+
+图片一(370306198901253027)与图片二(370306198901253021)比对结果:
+{
+	"responseCode": "000000",
+	"responseData":{
+		"similarity":0.599999,
+		"ref_thres":"0.420"
+},
+	"responseMessage":"success"
+}
+

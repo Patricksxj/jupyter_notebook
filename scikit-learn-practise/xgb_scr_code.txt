@@ -1,0 +1,1784 @@
+value = 0;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.0492300019; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0389423072) ;
+                if state = 4 then do;
+                    if worst < fractal then state = 0.0932950005; else state = 7;
+end;                    if state = 7 then
+                        value = value + (0.0114035085) ;
+                    if state = 8 then
+                        value = value + (-0.0122950822) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.00208333344) ;
+                if state = 6 then
+                    value = value + (-0.0339694656) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0392271318) ;
+                if state = 4 then
+                    value = value + (-0.00265615131) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00183014199) ;
+                if state = 6 then
+                    value = value + (-0.0320983753) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14594999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < concave then state = 0.136550009; else state = 5;
+end;                    if state = 5 then
+                        value = value + (0.0376497023) ;
+                    if state = 6 then
+                        value = value + (0.00203760457) ;
+                if state = 4 then
+                    value = value + (-0.00756320497) ;
+            if state = 2 then
+                value = value + (-0.0316003077) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.036921557) ;
+                if state = 4 then
+                    value = value + (4.73675755e-05) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00352235627) ;
+                if state = 6 then do;
+                    if mean < concave then state = 0.0488649979; else state = 7;
+end;                    if state = 7 then
+                        value = value + (-0.00302723865) ;
+                    if state = 8 then
+                        value = value + (-0.0335915275) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0369559787) ;
+                if state = 4 then
+                    value = value + (-0.00537206978) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00105331978) ;
+                if state = 6 then
+                    value = value + (-0.0316385962) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0368565023) ;
+                if state = 4 then
+                    value = value + (-0.0037555974) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00023895195) ;
+                if state = 6 then
+                    value = value + (-0.0316195525) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0560749993; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.036206644) ;
+                    if state = 8 then
+                        value = value + (0.00234029698) ;
+                if state = 4 then
+                    value = value + (-0.00286876759) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (7.20406751e-05) ;
+                if state = 6 then
+                    value = value + (-0.0307533648) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.0486700013; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0346557461) ;
+                if state = 4 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0112654706) ;
+                    if state = 8 then
+                        value = value + (-0.0118788788) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000801153423) ;
+                if state = 6 then
+                    value = value + (-0.0298574921) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.147249997; else state = 3;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0342922993) ;
+                    if state = 8 then
+                        value = value + (0.00298995594) ;
+                if state = 4 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (0.00128941867) ;
+                    if state = 10 then
+                        value = value + (-0.00859539118) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000758280861) ;
+                if state = 6 then
+                    value = value + (-0.0306503978) ;
+state = 0;
+        if state = 0 then do;
+            if worst < radius then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.171750009; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.033235576) ;
+                if state = 4 then
+                    value = value + (-0.00661436794) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00360055082) ;
+                if state = 6 then
+                    value = value + (-0.0298627801) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0334163122) ;
+                if state = 4 then
+                    value = value + (-0.00871968362) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (8.4919513e-05) ;
+                if state = 6 then
+                    value = value + (-0.0295786895) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.033111196) ;
+                if state = 4 then
+                    value = value + (-0.0041887383) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.001020303) ;
+                if state = 6 then
+                    value = value + (-0.0293037947) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.171750009; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0318067409) ;
+                if state = 4 then
+                    value = value + (-0.00622371817) ;
+            if state = 2 then do;
+                if worst < concave then state = 0.116549999; else state = 5;
+end;                if state = 5 then
+                    value = value + (-0.00256366562) ;
+                if state = 6 then
+                    value = value + (-0.0295346379) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0312569737) ;
+                if state = 4 then
+                    value = value + (-0.00679227849) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000955283118) ;
+                if state = 6 then
+                    value = value + (-0.0285693612) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.151299998; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0313289128) ;
+                if state = 4 then
+                    value = value + (-0.00433264626) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00485662883) ;
+                if state = 6 then
+                    value = value + (-0.0276216362) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.14199999; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0314761549) ;
+                if state = 4 then
+                    value = value + (-0.00091693562) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00781772565) ;
+                    if state = 8 then
+                        value = value + (-0.00423575239) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (-0.00196374604) ;
+                    if state = 10 then
+                        value = value + (-0.0280616377) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0498849973; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0316705257) ;
+                    if state = 8 then
+                        value = value + (0.00157888781) ;
+                if state = 4 then
+                    value = value + (-0.00619637733) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00108396844) ;
+                if state = 6 then
+                    value = value + (-0.0290495344) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < perimeter then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0294739362) ;
+                    if state = 8 then
+                        value = value + (0.00243550865) ;
+                if state = 4 then
+                    value = value + (-0.00187944924) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00469737407) ;
+                if state = 6 then
+                    value = value + (-0.0283304099) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0299587455) ;
+                    if state = 8 then
+                        value = value + (0.00307413819) ;
+                if state = 4 then
+                    value = value + (-0.00464594457) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000681518111) ;
+                if state = 6 then
+                    value = value + (-0.0266560148) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.136550009; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0288203489) ;
+                if state = 4 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.00603914028) ;
+                    if state = 6 then
+                        value = value + (-0.0103834486) ;
+            if state = 2 then
+                value = value + (-0.0265012775) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0295102801) ;
+                if state = 4 then
+                    value = value + (-0.00185320841) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00576122617) ;
+                if state = 6 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.000946101092) ;
+                    if state = 8 then
+                        value = value + (-0.0272791125) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0290069077) ;
+                if state = 4 then
+                    value = value + (-0.00844899472) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000691244844) ;
+                if state = 6 then
+                    value = value + (-0.0269624777) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0289276969) ;
+                if state = 4 then
+                    value = value + (-0.00130830251) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00723362295) ;
+                    if state = 8 then
+                        value = value + (-0.00470801396) ;
+                if state = 6 then
+                    value = value + (-0.025442455) ;
+state = 0;
+        if state = 0 then do;
+            if worst < radius then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0271485429) ;
+                if state = 4 then
+                    value = value + (0.000428978034) ;
+            if state = 2 then do;
+                if mean < concave then state = 0.0488649979; else state = 5;
+end;                if state = 5 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0091568185) ;
+                    if state = 8 then
+                        value = value + (-0.00391320651) ;
+                if state = 6 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (-0.00026587196) ;
+                    if state = 10 then
+                        value = value + (-0.0271670464) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concavity then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0274570677) ;
+                    if state = 8 then
+                        value = value + (0.00261696125) ;
+                if state = 4 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (0.00605158787) ;
+                    if state = 10 then
+                        value = value + (-0.00829404034) ;
+            if state = 2 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.00160176947) ;
+                if state = 6 then
+                    value = value + (-0.0247453637) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0279011577) ;
+                if state = 4 then
+                    value = value + (-0.00190491998) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0015171289) ;
+                if state = 6 then do;
+                    if worst < radius then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000996375107) ;
+                    if state = 8 then
+                        value = value + (-0.0257385261) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0278632622) ;
+                    if state = 8 then
+                        value = value + (0.00066069368) ;
+                if state = 4 then
+                    value = value + (-0.00577228889) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00233806856) ;
+                if state = 6 then
+                    value = value + (-0.0250983071) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0273847021) ;
+                    if state = 8 then
+                        value = value + (0.0036523696) ;
+                if state = 4 then
+                    value = value + (-0.00567375636) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000627939298) ;
+                if state = 6 then
+                    value = value + (-0.0240188148) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < compactness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0273877326) ;
+                if state = 4 then
+                    value = value + (-0.00285913679) ;
+            if state = 2 then do;
+                if worst < perimeter then state = yes; else state = no;
+end;                if state = 5 then do;
+                    if mean < radius then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00760015938) ;
+                    if state = 8 then
+                        value = value + (0.00624416908) ;
+                if state = 6 then
+                    value = value + (-0.0238799807) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concavity then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0254276823) ;
+                if state = 4 then do;
+                    if mean < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00547490874) ;
+                    if state = 8 then
+                        value = value + (-0.00726983557) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000155171976) ;
+                if state = 6 then
+                    value = value + (-0.0237697847) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concavity then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.026378287) ;
+                    if state = 8 then
+                        value = value + (0.00329520251) ;
+                if state = 4 then do;
+                    if mean < smoothness then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (0.00554696377) ;
+                    if state = 10 then do;
+                        if mean < smoothness then state = yes; else state = no;
+end;                        if state = 11 then
+                            value = value + (-0.000483251701) ;
+                        if state = 12 then
+                            value = value + (-0.00826555677) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000116938951) ;
+                if state = 6 then
+                    value = value + (-0.0227140542) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.14199999; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0255272817) ;
+                if state = 4 then
+                    value = value + (-0.0020542338) ;
+            if state = 2 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00252392213) ;
+                if state = 6 then do;
+                    if mean < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00119023235) ;
+                    if state = 8 then
+                        value = value + (-0.0246973727) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.0489199981; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0249715243) ;
+                if state = 4 then do;
+                    if mean < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00509876618) ;
+                    if state = 8 then
+                        value = value + (-0.00666679814) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (1.43464786e-05) ;
+                if state = 6 then
+                    value = value + (-0.0234009176) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0258636065) ;
+                if state = 4 then
+                    value = value + (-0.00197863183) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00534972362) ;
+                if state = 6 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00194875954) ;
+                    if state = 8 then
+                        value = value + (-0.0247206222) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0248358306) ;
+                if state = 4 then
+                    value = value + (-0.000722813827) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00660179509) ;
+                if state = 6 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00104732998) ;
+                    if state = 8 then
+                        value = value + (-0.0225198604) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.143600002; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0256763883) ;
+                if state = 4 then do;
+                    if mean < texture then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.00342215667) ;
+                    if state = 6 then
+                        value = value + (-0.00735615566) ;
+            if state = 2 then
+                value = value + (-0.0223237444) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.0633350015; else state = 3;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.024158163) ;
+                    if state = 8 then
+                        value = value + (0.00104874501) ;
+                if state = 4 then
+                    value = value + (-0.0050560222) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000571875367) ;
+                if state = 6 then
+                    value = value + (-0.0231212154) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.156300008; else state = 3;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.0246480685) ;
+                    if state = 6 then
+                        value = value + (-0.000156696362) ;
+                if state = 4 then
+                    value = value + (-0.00561804092) ;
+            if state = 2 then
+                value = value + (-0.0222488455) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < compactness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0244593006) ;
+                if state = 4 then
+                    value = value + (-0.000294144236) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00589081785) ;
+                if state = 6 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00161448237) ;
+                    if state = 8 then
+                        value = value + (-0.0228846762) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.14199999; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0247772075) ;
+                if state = 4 then
+                    value = value + (-0.000375269272) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00425367476) ;
+                if state = 6 then
+                    value = value + (-0.0214994196) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0229863133) ;
+                if state = 4 then
+                    value = value + (-0.00184697099) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00224431441) ;
+                if state = 6 then
+                    value = value + (-0.0212933403) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < perimeter then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then do;
+                        if texture < error then state = yes; else state = no;
+end;                        if state = 9 then
+                            value = value + (0.0242415797) ;
+                        if state = 10 then
+                            value = value + (0.00189009064) ;
+                    if state = 8 then
+                        value = value + (0.00288590975) ;
+                if state = 4 then
+                    value = value + (-0.00434968574) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000606665621) ;
+                if state = 6 then
+                    value = value + (-0.0211871527) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0228188559) ;
+                if state = 4 then
+                    value = value + (-0.00250620581) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0015527634) ;
+                if state = 6 then
+                    value = value + (-0.021370152) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.160299987; else state = 3;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 5 then do;
+                        if texture < error then state = yes; else state = no;
+end;                        if state = 7 then
+                            value = value + (0.0237188283) ;
+                        if state = 8 then
+                            value = value + (0.00166005606) ;
+                    if state = 6 then
+                        value = value + (0.00120529102) ;
+                if state = 4 then
+                    value = value + (-0.00772211282) ;
+            if state = 2 then
+                value = value + (-0.020933114) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0500999987; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0233213454) ;
+                if state = 4 then
+                    value = value + (-0.00074674905) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00386489369) ;
+                if state = 6 then do;
+                    if worst < radius then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00136253436) ;
+                    if state = 8 then
+                        value = value + (-0.0220463127) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0229611453) ;
+                if state = 4 then
+                    value = value + (-0.00429699663) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000898705621) ;
+                if state = 6 then
+                    value = value + (-0.0209100358) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0239727572) ;
+                    if state = 8 then
+                        value = value + (0.000730171043) ;
+                if state = 4 then
+                    value = value + (-0.00376863265) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000937321165) ;
+                if state = 6 then
+                    value = value + (-0.0200104397) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0234476291) ;
+                    if state = 8 then
+                        value = value + (-0.000310099014) ;
+                if state = 4 then
+                    value = value + (-0.00414311653) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00148812693) ;
+                if state = 6 then
+                    value = value + (-0.0204062033) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0233403873) ;
+                    if state = 8 then
+                        value = value + (0.00116402691) ;
+                if state = 4 then
+                    value = value + (-0.00466497196) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00269707176) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (-0.000349301496) ;
+                    if state = 10 then
+                        value = value + (-0.0220692549) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if texture < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0219549965) ;
+                    if state = 8 then
+                        value = value + (0.0020331617) ;
+                if state = 4 then
+                    value = value + (-0.00447192555) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000435749156) ;
+                if state = 6 then
+                    value = value + (-0.0204251166) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if mean < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.021927109) ;
+                if state = 4 then
+                    value = value + (-0.00396693079) ;
+            if state = 2 then do;
+                if mean < concave then state = 0.0577500015; else state = 5;
+end;                if state = 5 then
+                    value = value + (-0.000682941522) ;
+                if state = 6 then
+                    value = value + (-0.0202516932) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < compactness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0209988561) ;
+                if state = 4 then
+                    value = value + (0.000179524388) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00571147306) ;
+                if state = 6 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (7.10726017e-05) ;
+                    if state = 8 then
+                        value = value + (-0.0215280615) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < concave then state = 0.132849991; else state = 7;
+end;                    if state = 7 then
+                        value = value + (0.0214278307) ;
+                    if state = 8 then
+                        value = value + (0.00166388811) ;
+                if state = 4 then
+                    value = value + (-0.00287491409) ;
+            if state = 2 then do;
+                if mean < concave then state = 0.059094999; else state = 5;
+end;                if state = 5 then
+                    value = value + (-0.00167115987) ;
+                if state = 6 then
+                    value = value + (-0.0190245472) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0221928265) ;
+                if state = 4 then
+                    value = value + (-0.00288938941) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00465542078) ;
+                if state = 6 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00171660667) ;
+                    if state = 8 then
+                        value = value + (-0.0212365463) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0212662797) ;
+                if state = 4 then
+                    value = value + (-0.00334218261) ;
+            if state = 2 then do;
+                if worst < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00350677455) ;
+                if state = 6 then do;
+                    if worst < radius then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00120182522) ;
+                    if state = 8 then
+                        value = value + (-0.0196883976) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < symmetry then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0216479357) ;
+                if state = 4 then
+                    value = value + (0.00107706198) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0039269831) ;
+                if state = 6 then do;
+                    if mean < concave then state = 0.0411249995; else state = 7;
+end;                    if state = 7 then
+                        value = value + (-0.000534690509) ;
+                    if state = 8 then
+                        value = value + (-0.0208044779) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0211090539) ;
+                if state = 4 then
+                    value = value + (-0.00168460631) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00547727011) ;
+                if state = 6 then
+                    value = value + (-0.0213068221) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0205380041) ;
+                if state = 4 then
+                    value = value + (-0.0025804101) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00023782815) ;
+                if state = 6 then
+                    value = value + (-0.0182335246) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.135650009; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0209627133) ;
+                if state = 4 then
+                    value = value + (-0.00165252853) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000265152048) ;
+                if state = 6 then
+                    value = value + (-0.0181598049) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0207798481) ;
+                if state = 4 then
+                    value = value + (-0.00520415371) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000217943263) ;
+                if state = 6 then
+                    value = value + (-0.0188805256) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0202638451) ;
+                if state = 4 then do;
+                    if mean < texture then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.00162209908) ;
+                    if state = 6 then
+                        value = value + (-0.00562981656) ;
+            if state = 2 then
+                value = value + (-0.0187997278) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0212738086) ;
+                if state = 4 then
+                    value = value + (-0.000705341343) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0040076226) ;
+                if state = 6 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.00022023356) ;
+                    if state = 8 then
+                        value = value + (-0.0197679158) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0207794663) ;
+                if state = 4 then
+                    value = value + (-0.00138557202) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00415818021) ;
+                if state = 6 then
+                    value = value + (-0.017956432) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < symmetry then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < smoothness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0198838469) ;
+                    if state = 8 then
+                        value = value + (0.000633167569) ;
+                if state = 4 then
+                    value = value + (-0.0056479089) ;
+            if state = 2 then do;
+                if worst < symmetry then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000911238312) ;
+                if state = 6 then
+                    value = value + (-0.0182455294) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0205099173) ;
+                if state = 4 then
+                    value = value + (-0.00135492848) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00419022655) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000493316795) ;
+                    if state = 8 then
+                        value = value + (-0.0183821078) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0196781196) ;
+                if state = 4 then
+                    value = value + (-0.00105111068) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00360941212) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000775818015) ;
+                    if state = 8 then
+                        value = value + (-0.0190720465) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0189968869) ;
+                if state = 4 then
+                    value = value + (-0.000337012985) ;
+            if state = 2 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00337157259) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000466419209) ;
+                    if state = 8 then
+                        value = value + (-0.0187482722) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.0489199981; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0196029823) ;
+                if state = 4 then do;
+                    if worst < compactness then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00473654224) ;
+                    if state = 8 then
+                        value = value + (-0.00533413654) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000912066957) ;
+                if state = 6 then
+                    value = value + (-0.0183359478) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0194704589) ;
+                if state = 4 then
+                    value = value + (-0.00100008119) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000911256939) ;
+                if state = 6 then
+                    value = value + (-0.0181091856) ;
+state = 0;
+        if state = 0 then do;
+            if worst < radius then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0188206434) ;
+                if state = 4 then
+                    value = value + (-0.00328430324) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000810913683) ;
+                if state = 6 then
+                    value = value + (-0.0165091921) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0181826763) ;
+                if state = 4 then
+                    value = value + (-0.00130593451) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00487689022) ;
+                if state = 6 then do;
+                    if worst < radius then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000650888076) ;
+                    if state = 8 then
+                        value = value + (-0.018480828) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < compactness then state = yes; else state = no;
+end;                    if state = 7 then do;
+                        if worst < texture then state = yes; else state = no;
+end;                        if state = 9 then
+                            value = value + (0.0184738021) ;
+                        if state = 10 then
+                            value = value + (0.00125360838) ;
+                    if state = 8 then
+                        value = value + (0.00139054016) ;
+                if state = 4 then
+                    value = value + (-0.00417617103) ;
+            if state = 2 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000285451737) ;
+                if state = 6 then
+                    value = value + (-0.0164048243) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if smoothness < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00115798635) ;
+                    if state = 8 then
+                        value = value + (0.0195669532) ;
+                if state = 4 then
+                    value = value + (-0.00178201427) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00511979638) ;
+                if state = 6 then
+                    value = value + (-0.0164465755) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.135800004; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0181199089) ;
+                if state = 4 then
+                    value = value + (-0.00260135857) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000852195022) ;
+                if state = 6 then
+                    value = value + (-0.0165942907) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0188335236) ;
+                if state = 4 then
+                    value = value + (0.000749216822) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00380202429) ;
+                if state = 6 then
+                    value = value + (-0.0171879269) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0177029651) ;
+                if state = 4 then
+                    value = value + (-0.00229733158) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0015711179) ;
+                if state = 6 then
+                    value = value + (-0.0172199607) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if smoothness < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00103879708) ;
+                    if state = 8 then
+                        value = value + (0.0190441068) ;
+                if state = 4 then
+                    value = value + (-0.000157476636) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00293563842) ;
+                if state = 6 then do;
+                    if worst < radius then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (-0.000959898985) ;
+                    if state = 10 then
+                        value = value + (-0.0182601754) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.1479; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0179431494) ;
+                if state = 4 then
+                    value = value + (-0.000548335956) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00467867404) ;
+                if state = 6 then
+                    value = value + (-0.0177931096) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0178669095) ;
+                if state = 4 then
+                    value = value + (-0.00296809152) ;
+            if state = 2 then do;
+                if concavity < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.0172688887) ;
+                if state = 6 then
+                    value = value + (-0.00109790172) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if smoothness < error then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.000943736639) ;
+                    if state = 6 then do;
+                        if worst < texture then state = yes; else state = no;
+end;                        if state = 9 then
+                            value = value + (0.0190648772) ;
+                        if state = 10 then
+                            value = value + (0.0011514154) ;
+                if state = 4 then do;
+                    if worst < concave then state = 0.110799998; else state = 7;
+end;                    if state = 7 then
+                        value = value + (-7.96407985e-05) ;
+                    if state = 8 then
+                        value = value + (-0.00521194888) ;
+            if state = 2 then
+                value = value + (-0.0160065126) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0177002996) ;
+                if state = 4 then
+                    value = value + (-0.00377495331) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00583886402) ;
+                if state = 6 then
+                    value = value + (-0.0180740096) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0178597867) ;
+                    if state = 8 then
+                        value = value + (-0.000494724023) ;
+                if state = 4 then
+                    value = value + (-0.00431414461) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-8.93235338e-05) ;
+                if state = 6 then
+                    value = value + (-0.016734194) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if mean < concave then state = 0.055765003; else state = 3;
+end;                if state = 3 then
+                    value = value + (0.0179091338) ;
+                if state = 4 then
+                    value = value + (-0.000404747756) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0055080601) ;
+                if state = 6 then
+                    value = value + (-0.0172851905) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0183427036) ;
+                if state = 4 then
+                    value = value + (-0.000933079806) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00220584939) ;
+                if state = 6 then do;
+                    if worst < area then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (-0.000847736083) ;
+                    if state = 8 then
+                        value = value + (-0.0171012431) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < smoothness then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.0190936159) ;
+                    if state = 6 then
+                        value = value + (7.28934829e-05) ;
+                if state = 4 then
+                    value = value + (-0.00467884308) ;
+            if state = 2 then
+                value = value + (-0.014604521) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136550009; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0170122888) ;
+                if state = 4 then
+                    value = value + (-0.00368269952) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000622094085) ;
+                if state = 6 then
+                    value = value + (-0.0152545078) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.136799991; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0164246988) ;
+                if state = 4 then
+                    value = value + (-0.00230198493) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.000821797119) ;
+                if state = 6 then
+                    value = value + (-0.0161339808) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concavity then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0169992987) ;
+                if state = 4 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.00436515734) ;
+                    if state = 6 then
+                        value = value + (-0.00554251019) ;
+            if state = 2 then
+                value = value + (-0.0155390147) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0175642949) ;
+                if state = 4 then
+                    value = value + (-0.00491789682) ;
+            if state = 2 then do;
+                if symmetry < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.00105607533) ;
+                if state = 6 then
+                    value = value + (-0.0160497036) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.151299998; else state = 3;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.017985912) ;
+                    if state = 8 then
+                        value = value + (0.000958958757) ;
+                if state = 4 then
+                    value = value + (-0.00307294237) ;
+            if state = 2 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000599809806) ;
+                if state = 6 then
+                    value = value + (-0.0149889681) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0489199981; else state = 1;
+end;            if state = 1 then do;
+                if mean < texture then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0173968952) ;
+                if state = 4 then
+                    value = value + (3.38956706e-05) ;
+            if state = 2 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 5 then do;
+                    if mean < concave then state = 0.0701400042; else state = 7;
+end;                    if state = 7 then
+                        value = value + (0.00424102601) ;
+                    if state = 8 then
+                        value = value + (-0.00107297977) ;
+                if state = 6 then
+                    value = value + (-0.0144154457) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.138099998; else state = 3;
+end;                if state = 3 then do;
+                    if texture < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.017446164) ;
+                    if state = 8 then
+                        value = value + (0.0012373291) ;
+                if state = 4 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 9 then
+                        value = value + (0.00432991143) ;
+                    if state = 10 then
+                        value = value + (-0.00726594776) ;
+            if state = 2 then do;
+                if mean < concavity then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (-0.00124260888) ;
+                if state = 6 then
+                    value = value + (-0.0147536993) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.016191503) ;
+                if state = 4 then
+                    value = value + (-0.00408059079) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000770756335) ;
+                if state = 6 then
+                    value = value + (-0.0150914928) ;
+state = 0;
+        if state = 0 then do;
+            if worst < area then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.160299987; else state = 3;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.01653051) ;
+                    if state = 8 then
+                        value = value + (0.00117962365) ;
+                if state = 4 then
+                    value = value + (-0.00533597497) ;
+            if state = 2 then do;
+                if worst < concave then state = 0.116549999; else state = 5;
+end;                if state = 5 then
+                    value = value + (-0.00102834159) ;
+                if state = 6 then
+                    value = value + (-0.014535523) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < compactness then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0153318541) ;
+                if state = 4 then
+                    value = value + (0.000141911863) ;
+            if state = 2 then do;
+                if mean < symmetry then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00168781658) ;
+                if state = 6 then
+                    value = value + (-0.0157336574) ;
+state = 0;
+        if state = 0 then do;
+            if mean < concave then state = 0.0492300019; else state = 1;
+end;            if state = 1 then do;
+                if mean < radius then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0174138788) ;
+                if state = 4 then
+                    value = value + (-0.000883822795) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.00175069913) ;
+                if state = 6 then
+                    value = value + (-0.0146607636) ;
+state = 0;
+        if state = 0 then do;
+            if worst < perimeter then state = yes; else state = no;
+end;            if state = 1 then do;
+                if worst < concave then state = 0.160299987; else state = 3;
+end;                if state = 3 then do;
+                    if area < error then state = yes; else state = no;
+end;                    if state = 5 then
+                        value = value + (0.0169759504) ;
+                    if state = 6 then
+                        value = value + (-0.00231488678) ;
+                if state = 4 then
+                    value = value + (-0.00493063731) ;
+            if state = 2 then
+                value = value + (-0.0145993549) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.145449996; else state = 1;
+end;            if state = 1 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.0171841066) ;
+                    if state = 8 then
+                        value = value + (-0.000255512394) ;
+                if state = 4 then
+                    value = value + (-0.00245350203) ;
+            if state = 2 then do;
+                if worst < radius then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.000662533042) ;
+                if state = 6 then
+                    value = value + (-0.0139650954) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.14199999; else state = 1;
+end;            if state = 1 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 3 then do;
+                    if worst < fractal then state = 0.0954200029; else state = 7;
+end;                    if state = 7 then do;
+                        if worst < texture then state = yes; else state = no;
+end;                        if state = 9 then
+                            value = value + (0.0168031957) ;
+                        if state = 10 then
+                            value = value + (0.00135885773) ;
+                    if state = 8 then
+                        value = value + (0.000607121328) ;
+                if state = 4 then
+                    value = value + (-0.00238670013) ;
+            if state = 2 then do;
+                if area < error then state = yes; else state = no;
+end;                if state = 5 then
+                    value = value + (0.0019662315) ;
+                if state = 6 then
+                    value = value + (-0.0138269858) ;
+state = 0;
+        if state = 0 then do;
+            if worst < concave then state = 0.116950005; else state = 1;
+end;            if state = 1 then do;
+                if worst < texture then state = yes; else state = no;
+end;                if state = 3 then
+                    value = value + (0.0147817079) ;
+                if state = 4 then
+                    value = value + (2.05755186e-05) ;
+            if state = 2 then do;
+                if worst < area then state = yes; else state = no;
+end;                if state = 5 then do;
+                    if worst < texture then state = yes; else state = no;
+end;                    if state = 7 then
+                        value = value + (0.00611766707) ;
+                    if state = 8 then
+                        value = value + (-0.00530410511) ;
+                if state = 6 then
+                    value = value + (-0.0145783294) ;
+
+Y_Pred1 = 1/(1+exp(-value));
+Y_Pred0 = 1 - Y_pred1;
